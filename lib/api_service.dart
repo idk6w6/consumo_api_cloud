@@ -30,3 +30,4 @@ Future<List<CloudUser>> fetchCloudUsers() async {
     // Si la respuesta no fue OK, lanzamos un error.
     throw Exception('Error al conectar con el servicio en la nube');
   }
+}
